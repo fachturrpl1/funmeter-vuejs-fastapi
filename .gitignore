@@ -1,0 +1,59 @@
+*zip
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Compiled output
+out-tsc/
+bazel-out/
+vite.config.js.timestamp*
+
+# Compiled output
+
+frontend/dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# macOS
+.DS_Store
+
+# Misc
+.env
+.env.*
+*.db
+*.sqlite3
+
+# models
+opencv*
+Temp/
+*.zip
+
+# example/tmp
+tmp/
+contoh*
+_tmp_*
+
+# shadcn & database
+backend/database/
+backend/uploads/

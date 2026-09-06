@@ -1,0 +1,92 @@
+[33m4984002[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/hasil-terpaksa[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mhasil-terpaksa[m[33m)[m update semua
+[33m9f47c27[m update tema, components shadcn, dan benerin bug tailwind gak render w-[--var]
+[33m0ce9b95[m hilangin data database
+[33m810a4d1[m hilangin data database
+[33m63e0634[m update tampilan pakai shadcn, belum optimal bahasa
+[33me36d019[m update tambahan hasil build web
+[33mb4f82aa[m update mainfastapi dan tampilan maksimal pagi jumat
+[33ma47a66f[m update tampilan
+[33m3f98c53[m update tampilan
+[33mf18f87a[m update logic dan frontend untuk admin
+[33md62dcbf[m[33m ([m[1;31morigin/test-frontend-and-backend[m[33m)[m update setelah sudah tailwind 4 dan daisyui 5
+[33me9969db[m sebelum diangkat jadi tailwind4 dan daisyui5
+[33m2c4df9d[m final deploy
+[33m0750b54[m update tls connection
+[33mceb5c93[m update agar database register bisa
+[33mb90a0be[m update agar database register bisa
+[33md2c705a[m add built static files
+[33mb34c410[m new version dockerfile
+[33m01d1d07[m new version dockerfile
+[33mae8850e[m update dengan hasil/build vite
+[33m1ce2aec[m ganti port
+[33ma9bbc3d[m final terpaksa
+[33m21be10d[m hasil final dulu maghrib
+[33md5da28f[m sebelum diubah
+[33mc4ccc2a[m perbaiki banyak hal
+[33m8b7b4de[m perbaiki banyak hal
+[33mc52b6fd[m perbaiki dark mode
+[33m7f959aa[m perbaiki dark mode
+[33m115450e[m tambah AGENTS.md
+[33maa0a1ec[m update gitignore
+[33mc42eb21[m tambah AGENTS.md
+[33m03923df[m[33m ([m[1;31morigin/frontend-and-backend[m[33m)[m tambahin file file
+[33m2316e2d[m[33m ([m[1;35mrefs/stash[m[33m)[m On (no branch): carryover during author rewrite
+[33m4ab4efd[m index on (no branch): 24a0642 Add admin dashboard and improve engine refresh safety
+[33m76f82c6[m untracked files on (no branch): 24a0642 Add admin dashboard and improve engine refresh safety
+[33m24a0642[m Add admin dashboard and improve engine refresh safety
+[33ma53d0a7[m benerin bug ngefreeze saat berpindah antar halaman & tag id yang salah dan pengurutan data terbaru
+[33mbcb9717[m benerin bug ngefreeze saat berpindah antar halaman & tag id yang salah dan pengurutan data terbaru
+[33m6aadc1b[m benerin semua agar sama dengan backend
+[33mcc2a35d[m benerin semua agar sama dengan backend
+[33mc61a18d[m Add frontend and backend restructure
+[33m17df512[m Add Vue 3 SFC frontend
+[33me0def43[m first commit
+[33m38a6fd3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfrontend-and-backend[m[33m)[m benerin potrait(final), App vue dipisah(final), bisa Setting kualitas(final)
+[33mbf91576[m benerin potrait(final), App vue dipisah(final), bisa Setting kualitas(final)
+[33mc5f4511[m (pagi senin) hilangin aspect-ratio di tampilan
+[33m774b080[m[33m ([m[1;32mtest-frontend-and-backend[m[33m)[m hasil maksimal
+[33m54e129c[m hasil maksimal
+[33m04e49d6[m hasil maksimal
+[33mb23daa6[m hasil maksimal
+[33me6fc33e[m hasil maksimal
+[33m26580e7[m hasil terakhir
+[33mbf2e7e9[m hasil terakhir
+[33m2447d54[m Add dark theme support and configurable attendance rules
+[33m9b1fa10[m hasil final TERAKHIR
+[33m12c25de[m Document API key auth in FastAPI docs
+[33m5bef5ae[m Align FastAPI user payloads with GraphQL utilities
+[33m1be10a1[m Refactor user/config data to GraphQL utilities
+[33mab9473a[m Refine API key UX and GraphQL schema
+[33m4d605dc[m test dulu
+[33m245985d[m test dulu
+[33m3d7aa67[m coba pakai cloudflared
+[33m9087a99[m coba pakai cloudflared
+[33mc4f4e88[m final WS GABUNGAN DAN FRONTEND
+[33m20a9af0[m final WS GABUNGAN DAN FRONTEND
+[33m357d5ac[m final ashar kamis
+[33mfaa5066[m final ashar kamis
+[33mca3b31e[m Serve Vue SPA from backend templates
+[33md997934[m Add admin dashboard UI and refresh templates
+[33me75332c[m sore rabu
+[33md2ab6a3[m sore rabu
+[33mc4242c7[m pagi rabu
+[33mc8b2ad6[m pagi rabu
+[33m62e9b74[m final hari selasa
+[33m5364b2f[m final hari selasa
+[33m9260e5f[m final hari selasa
+[33m3b04d10[m Implement unified auth modal and refresh UI
+[33m615ea1f[m masih test
+[33m1fd7582[m masih test
+[33m1362628[m test kedua
+[33m53eaac9[m TEST DULU DASHBOARD ADMIN
+[33mc478ae9[m TEST DULU DASHBOARD ADMIN
+[33m6aa534b[m Add admin config editor and reset helpers
+[33mf41f383[m Enhance admin dashboard with management actions
+[33m41d9676[m Add admin dashboard and improve engine refresh safety
+[33m9b743f8[m benerin bug ngefreeze saat berpindah antar halaman & tag id yang salah dan pengurutan data terbaru
+[33ma37894b[m benerin bug ngefreeze saat berpindah antar halaman & tag id yang salah dan pengurutan data terbaru
+[33mb781e23[m benerin semua agar sama dengan backend
+[33mfa52d1a[m benerin semua agar sama dengan backend
+[33m4edd926[m Add frontend and backend restructure
+[33mbf4bd56[m Add Vue 3 SFC frontend
+[33mb77fbbb[m[33m ([m[1;32mmain[m[33m)[m first commit

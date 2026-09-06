@@ -1,0 +1,26 @@
+
+cara jalanin backend:
+
+1. masuk ke folder ./backend
+   `cd ./backend`
+
+2. lalu install requirements
+   `pip install -r ./requirements.txt`
+
+3. lalu jalanin
+   `python ./serve.py --reload --port 8000` (pakai arg --cuda kalau di pcnya sudah ada cudanya,
+   bisa diganti portnya ke yang lainnya tapi harus disesuaikan sama frontend)
+
+
+cara jalanin frontend:
+
+1. masuk ke folder ./frontend
+   `cd ./frontend`
+
+2. lalu install dependencies
+   `corepak enable`
+   `corepack use pnpm`
+   `pnpm install`
+
+3. lalu jalanin
+   `pnpm run dev`

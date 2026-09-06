@@ -1,0 +1,55 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: funmeter-backend
+    environment:
+      OPENCV_BACKEND: cpu
+      USE_REDIS: "0"
+      MODELS_DIR: /app/backend/models
+      PYTHONUNBUFFERED: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+      # Performance optimizations
+      OMP_NUM_THREADS: "4"
+      MKL_NUM_THREADS: "4"
+      OPENCV_LOG_LEVEL: "SILENT"
+    volumes:
+      - ./backend/uploads:/app/backend/uploads
+      - ./backend/database:/app/backend/database
+      - ./backend/models:/app/backend/models:ro
+    ports:
+      - "7172:5000"
+    restart: unless-stopped
+    # Resource limits for better performance
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 1G
+    # Health check
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    command: ["python", "serve.py", "--host", "0.0.0.0", "--port", "5000"]
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: funmeter-frontend
+    depends_on:
+      - backend
+    ports:
+      - "7171:5173" 
+    restart: unless-stopped
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
